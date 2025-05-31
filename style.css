@@ -5,6 +5,12 @@ body {
   margin: 0;
   padding: 0;
 }
+
+.main-wrap {
+  max-width: 1440px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
 .header {
   background: #FADCD9;
   border-radius: 20px;
