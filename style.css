@@ -5,88 +5,114 @@ body {
   margin: 0;
   padding: 0;
 }
-
-.main-wrap {
+.wrapper {
   max-width: 1440px;
   margin: 0 auto;
-  box-sizing: border-box;
+  padding: 0 24px;
 }
 .header {
   background: #FADCD9;
   border-radius: 20px;
-  margin: 24px;
-  padding: 24px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  padding: 0 32px;
+  height: 101px;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
 }
 .nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 885px;
+  width: 100%;
 }
 .logo {
   font-size: 25px;
   font-weight: 300;
   text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.page-links {
+  display: flex;
+  gap: 88px;
 }
 .page-links a {
-  margin-left: 32px;
   font-size: 16px;
   font-weight: 300;
   text-decoration: none;
   color: #000;
+  text-transform: uppercase;
 }
-.slogan-intro {
-  background: #FADCD9;
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.intro-row {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  width: 100%;
+}
+.intro-left {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 448px;
+}
+.intro-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 330px;
+}
+.intro-right {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 448px;
+}
+.slogan-card {
   border-radius: 20px;
-  margin: 24px;
+  background: #FADCD9;
   padding: 56px 24px;
+  min-height: 168px;
+  display: flex;
+  align-items: center;
 }
 .slogan {
   font-size: 56px;
   font-weight: 700;
   margin: 0;
 }
-.portrait {
-  margin: 24px auto;
-  width: 330px;
+.portrait-card {
+  background: #fff;
   height: 476px;
-  background: #eee;
+  width: 330px;
   border-radius: 20px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.about {
-  background: #FADCD9;
+.about-card {
   border-radius: 20px;
-  margin: 24px;
-  padding: 40px 24px;
+  background: #FADCD9;
   font-size: 20px;
   font-weight: 300;
+  min-height: 150px;
+  padding: 40px 24px;
 }
-.work {
-  background: #FADCD9;
+.socials-card {
   border-radius: 20px;
-  margin: 24px;
-  padding: 32px 24px;
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-}
-.work-item {
-  font-size: 25px;
-  font-weight: 500;
-  padding: 12px 0;
-  border-bottom: 2px solid #F8AFA6;
-}
-.work-item:last-child {
-  border-bottom: none;
-}
-.socials {
   background: #FADCD9;
-  border-radius: 20px;
-  margin: 24px;
-  padding: 24px;
   display: flex;
   gap: 88px;
   justify-content: flex-end;
+  align-items: center;
+  height: 101px;
+  padding: 24px;
 }
 .social-link {
   font-size: 15px;
@@ -95,13 +121,13 @@ body {
   color: #000;
   text-decoration: none;
 }
-.contact {
-  background: #F8AFA6;
+.contact-card {
   border-radius: 20px;
-  margin: 24px;
+  background: #F8AFA6;
+  min-height: 150px;
   padding: 40px 24px;
 }
-.contact h2 {
+.contact-card h2 {
   font-size: 55px;
   font-weight: 500;
   margin: 0 0 24px 0;
@@ -112,4 +138,24 @@ body {
   align-items: flex-end;
   font-size: 15px;
   font-weight: 300;
+}
+.work-card {
+  border-radius: 20px;
+  background: #FADCD9;
+  min-height: 350px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 40px 24px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.work-item {
+  font-size: 25px;
+  font-weight: 500;
+  padding: 12px 0;
+  border-bottom: 2px solid #F8AFA6;
+}
+.work-item:last-child {
+  border-bottom: none;
 }
