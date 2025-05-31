@@ -1,0 +1,109 @@
+body {
+  background: #F9F1F0;
+  font-family: 'Gilroy', Arial, sans-serif;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+.header {
+  background: #FADCD9;
+  border-radius: 20px;
+  margin: 24px;
+  padding: 24px;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 885px;
+}
+.logo {
+  font-size: 25px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.page-links a {
+  margin-left: 32px;
+  font-size: 16px;
+  font-weight: 300;
+  text-decoration: none;
+  color: #000;
+}
+.slogan-intro {
+  background: #FADCD9;
+  border-radius: 20px;
+  margin: 24px;
+  padding: 56px 24px;
+}
+.slogan {
+  font-size: 56px;
+  font-weight: 700;
+  margin: 0;
+}
+.portrait {
+  margin: 24px auto;
+  width: 330px;
+  height: 476px;
+  background: #eee;
+  border-radius: 20px;
+}
+.about {
+  background: #FADCD9;
+  border-radius: 20px;
+  margin: 24px;
+  padding: 40px 24px;
+  font-size: 20px;
+  font-weight: 300;
+}
+.work {
+  background: #FADCD9;
+  border-radius: 20px;
+  margin: 24px;
+  padding: 32px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.work-item {
+  font-size: 25px;
+  font-weight: 500;
+  padding: 12px 0;
+  border-bottom: 2px solid #F8AFA6;
+}
+.work-item:last-child {
+  border-bottom: none;
+}
+.socials {
+  background: #FADCD9;
+  border-radius: 20px;
+  margin: 24px;
+  padding: 24px;
+  display: flex;
+  gap: 88px;
+  justify-content: flex-end;
+}
+.social-link {
+  font-size: 15px;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #000;
+  text-decoration: none;
+}
+.contact {
+  background: #F8AFA6;
+  border-radius: 20px;
+  margin: 24px;
+  padding: 40px 24px;
+}
+.contact h2 {
+  font-size: 55px;
+  font-weight: 500;
+  margin: 0 0 24px 0;
+}
+.contact-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  font-size: 15px;
+  font-weight: 300;
+}
